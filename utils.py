@@ -1,6 +1,6 @@
 import requests
 import matplotlib.pyplot as plt
-
+from pathlib import Path
 def download(url, filename):
     response = requests.get(url)
     if response.status_code == 200:
@@ -13,3 +13,6 @@ def savePlot(path):
     plt.savefig(path, dpi=300, bbox_inches="tight")
     plt.close()
     return 
+
+def checkIfPlotExists(path: str) -> bool:
+    return Path(path).exists()
