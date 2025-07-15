@@ -17,7 +17,8 @@ Packages needed are:
 - pandas for managing data
 - seaborn for data visualization
 - reqeusts for data fetching 
-- skillsnetwork 
+- matplotlib for data visualization
+- numpy for data calculations 
 
 ## Set up venv
 Create the virtual environment to download needed packages
