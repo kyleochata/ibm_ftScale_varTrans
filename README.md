@@ -17,6 +17,7 @@ Packages needed are:
 - pandas for managing data
 - seaborn for data visualization
 - reqeusts for data fetching 
+- skillsnetwork 
 
 ## Set up venv
 Create the virtual environment to download needed packages
@@ -40,7 +41,7 @@ Windows(PowerShell)
 
 Install packages:
 ```
-    pip isntall pandas seaborn skillsnetwork
+    pip isntall pandas seaborn skillsnetwork requests
 ```
 
 To ensure that the packages are installed run `pip list` in the terminal with the venv active
